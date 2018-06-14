@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightcoral;
+}
+
+.header{
+    border-bottom: 2px solid black;
+    min-width: 100vw;
+    min-height: 12vh;
+    padding: 2vh 2vw 0vh 2vw;
+    background-color: brown;
+}
+
+.name{
+    font-size: 28px;
+}
+
+p, span{
+    display: inline;
+}
+
+span{
+    margin-left: 70vw;
+}
+
+.sidebar{
+    display: inline-block;
+    min-width: 30vw;
+    max-width: 30vw;
+    min-height: 700px;
+    border-right: 1px solid black;
+    /* position: absolute; */
+    background-color: bisque
+}
+main{
+    position: absolute;
+    display: inline-block;
+    min-width: 69vw;
+    min-height: 700px;
+}
+
+footer{
+  width: 100vw;
+  border-top: 2px solid black;
+  height: 50px;
+  position: absolute;
+  padding: 15px;
+}
+
+form{
+    margin-top: 12vh;
+    margin-left: 25vw;
+}
+
+form input{
+    display: block;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+button{
+    margin-top: 5px;
+    box-shadow: 3px 3px 3px;
+}
